@@ -1,0 +1,43 @@
+module Base
+{
+    vehicle Lambo
+    {
+        name = Lamborghini,
+        model = SportsCar,        // temporary placeholder model
+        scriptName = Lambo,       
+        texture = SportsCar,
+        skinCount = 1,
+
+        engineForce = 0.45,
+        maxSpeed = 180,
+        playerDamageProtection = true,
+
+        soundHorn = VehicleHorn,
+        soundEngine = VehicleEngine,
+        soundCrash = VehicleCrash,
+
+        part VehicleEngine {
+            location = Engine;
+        }
+
+        part VehicleSeatFrontLeft {
+            location = SeatFrontLeft;
+        }
+
+        part VehicleSeatFrontRight {
+            location = SeatFrontRight;
+        }
+
+        part VehicleDoorFrontLeft {
+            location = DoorFrontLeft;
+        }
+
+        part VehicleDoorFrontRight {
+            location = DoorFrontRight;
+        }
+
+        part VehicleTrunk {
+            location = Trunk;
+        }
+    }
+}
