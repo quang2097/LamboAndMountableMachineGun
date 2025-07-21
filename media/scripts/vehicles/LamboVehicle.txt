@@ -2,12 +2,15 @@ module Base
 {
     vehicle Lambo
     {
-        engineForce = 4000,
+        name = Lamborghini,
+        model = SportsCar,        // temporary placeholder model
+        scriptName = Lambo,       
+        texture = SportsCar,
+        skinCount = 1,
+
+        engineForce = 0.45,
         maxSpeed = 180,
         playerDamageProtection = true,
-#using working vanilla model since we don't have one yet
-        model = SportsCar,
-        scriptName = SportsCar,
 
         soundHorn = VehicleHorn,
         soundEngine = VehicleEngine,
