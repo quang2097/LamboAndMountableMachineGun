@@ -1,0 +1,40 @@
+module Base
+{
+    vehicle Lambo
+    {
+        engineForce = 4000,
+        maxSpeed = 180,
+        playerDamageProtection = true,
+#using working vanilla model since we don't have one yet
+        model = SportsCar,
+        scriptName = SportsCar,
+
+        soundHorn = VehicleHorn,
+        soundEngine = VehicleEngine,
+        soundCrash = VehicleCrash,
+
+        part VehicleEngine {
+            location = Engine;
+        }
+
+        part VehicleSeatFrontLeft {
+            location = SeatFrontLeft;
+        }
+
+        part VehicleSeatFrontRight {
+            location = SeatFrontRight;
+        }
+
+        part VehicleDoorFrontLeft {
+            location = DoorFrontLeft;
+        }
+
+        part VehicleDoorFrontRight {
+            location = DoorFrontRight;
+        }
+
+        part VehicleTrunk {
+            location = Trunk;
+        }
+    }
+}
