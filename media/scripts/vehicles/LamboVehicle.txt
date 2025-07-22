@@ -1,20 +1,20 @@
 module Base
 {
-	model lambo?
+	model lambo
 	{
 		mesh = vehicles/lambo,
 		shader = vehicle_multiuv,
 		invertX = false,
 		scale = 0.01,
 	}
-	model lambowheelfeft?
+	model lambowheelleft
 	{
 		mesh = vehicles/lambowheelleft,
 		texture = vehicles/lambowheels,
 		invertX = false,
 		scale = 0.01,
 	}
-	model lambowheelright?
+	model lambowheelright
 	{
 		mesh = vehicles/lambowheelright,
 		texture = vehicles/lambowheels,
@@ -34,6 +34,7 @@ module Base
 			file = lambo,
 			scale = 0.9500,
 			offset = 0.0000 0.0000 0.0000,
+			front = 0.0 1.0 0.0
 		}
 
 		skin
