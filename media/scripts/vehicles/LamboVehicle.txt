@@ -31,7 +31,7 @@ module Base
 
 		model
 		{
-			file = lamboBase,
+			file = lambo,
 			scale = 0.9500,
 			offset = 0.0000 0.0000 0.0000,
 		}
