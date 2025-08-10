@@ -1,0 +1,10 @@
+Recipes_CN = {
+    Recipe_Make_Aluminum = "打制铝箔",
+    Recipe_Brew_Strawberry_Vinegar = "酿造草莓果醋",
+    Recipe_Extract_Sugar = "提取粗糖",
+    Recipe_Refine_Sugar = "精炼砂糖",
+    Recipe_Package_Sugar = "打包砂糖",
+    Recipe_Make_Cheese = "制作奶酪",
+    Recipe_Make_Butter = "制作黄油",
+    Recipe_Make_Vegetable_Oil_from_Cruciferae = "用十字花科植物做植物油",
+}

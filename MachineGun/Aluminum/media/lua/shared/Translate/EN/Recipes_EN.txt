@@ -1,0 +1,10 @@
+Recipes_EN = {
+    Recipe_Make_Aluminum = "Make Aluminum",
+    Recipe_Brew_Strawberry_Vinegar = "Brew Strawberry Vinegar",
+    Recipe_Extract_Sugar = "Extract Sugar",
+    Recipe_Refine_Sugar = "Refine Sugar",
+    Recipe_Package_Sugar = "Package Sugar",
+    Recipe_Make_Cheese = "Make Cheese",
+    Recipe_Make_Butter = "Make Butter",
+    Recipe_Make_Vegetable_Oil_from_Cruciferae = "Make Vegetable Oil from Cruciferae",
+}
