@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\MBandolier2.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\FBandolier2.FBX</m_FemaleModel>
+	<m_GUID>ebb4ce7f-765b-47e8-b090-f935d314434e</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Spine</m_AttachBone>
+	<textureChoices>clothes\straps\BandolierShellsBelt</textureChoices>
+</clothingItem>

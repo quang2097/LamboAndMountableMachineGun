@@ -1,0 +1,41 @@
+VERSION = 1,
+
+option SuppInGunstore.Rate
+{
+	type = double,
+	min = 0.01,
+	default = 2.0,
+	max = 20.0,
+	page = SuppRate,
+	translation = SuppInGunstore_SuppRate,
+}
+
+option SuppInMilitary.Rate
+{
+	type = double,
+	min = 0.01,
+	default = 1.0,
+	max = 20.0,
+	page = SuppRate,
+	translation = SuppInMilitary_SuppRate,
+}
+
+option SuppInPolice.Rate
+{
+	type = double,
+	min = 0.01,
+	default = 0.01,
+	max = 20.0,
+	page = SuppRate,
+	translation = SuppInPolice_SuppRate,
+}
+
+option OldPainless.Rate
+{
+	type = double,
+	min = 0.0,
+	default = 0.0,
+	max = 20.0,
+	page = SuppRate,
+	translation = OldPainless_SpawnRate,
+}

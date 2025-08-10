@@ -1,0 +1,79 @@
+module CraftAluminum
+{
+    recipe Make Aluminum
+    {
+        SmallSheetMetal=1,
+        keep [Recipe.GetItemTypes.Hammer],
+
+        NoBrokenItems:true,
+        Result:Aluminum=3,
+        SkillRequired:MetalWelding=10,
+        Time:300.0,
+        Category:Welding,
+    }
+    
+    recipe Brew Strawberry Vinegar
+    {
+        farming.Strewberrie=100,
+        keep RollingPin,
+        Result:Vinegar,
+        Time:300.0,
+        Category:Cooking,
+    }
+
+    recipe Extract Sugar
+    {
+        BerryBlacBerryBluek//BerryGeneric1/BerryGeneric2/BerryGeneric3/BerryGeneric4/BerryGeneric5/BerryPoisonIvy/BeautyBerry/WinterBerry/HollyBerry = 10,
+        LemonGrass,
+        keep RollingPin,
+        Result:SugarBrown,
+        Time:300.0,
+        Category:Cooking,
+    }
+    
+    recipe Refine Sugar
+    {
+        SugarBrown = 2,
+        keep Kettle,
+        Water=1,
+        Result:Sugar,
+        Time:300.0,
+        Category:Cooking,
+    }
+
+    recipe Package Sugar
+    {
+        Sugar,
+        keep [Recipe.GetItemTypes.DullKnife],
+        Result:SugarPacket=10,
+        Time:300.0,
+        Category:Cooking,
+    }
+
+    recipe Make Cheese
+    {
+        Milk=2,
+        keep Saucepan,
+        Result:Cheese,
+        Time:300.0,
+        Category:Cooking,
+    }
+
+    recipe Make Butter
+    {
+        Milk=30,
+        keep Saucepan,
+        Result:Butter,
+        Time:300.0,
+        Category:Cooking,
+    }
+
+    recipe Make Vegetable Oil from Cruciferae
+    {
+        Broccoli=300,
+        keep Saucepan,
+        Result:OilVegetable,
+        Time:300.0,
+        Category:Cooking,
+    }
+}

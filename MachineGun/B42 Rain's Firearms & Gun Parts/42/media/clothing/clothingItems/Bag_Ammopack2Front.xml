@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<clothingItem>
+	<m_MaleModel>media\models_X\Static\Clothes\MAmmopack2.FBX</m_MaleModel>
+	<m_FemaleModel>media\models_X\Static\Clothes\FAmmopack2.FBX</m_FemaleModel>
+	<m_GUID>f3f76534-095c-4cb0-bfa0-8b4942d8b339</m_GUID>
+	<m_Static>true</m_Static>
+	<m_AllowRandomTint>false</m_AllowRandomTint>
+	<m_AttachBone>Bip01_Spine</m_AttachBone>
+	<textureChoices>clothes\bag\Ammopack2</textureChoices>
+	<textureChoices>clothes\bag\Ammopack2B</textureChoices>
+</clothingItem>

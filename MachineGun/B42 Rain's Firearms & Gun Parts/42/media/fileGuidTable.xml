@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<fileGuidTable>
+	<files>
+		<path>media/clothing/clothingItems/Bag_Ammopack1Front.xml</path>
+		<guid>fca77087-c5ed-4412-8ba2-67a395341723</guid>
+	</files>
+		<files>
+		<path>media/clothing/clothingItems/Bag_Ammopack2Front.xml</path>
+		<guid>f3f76534-095c-4cb0-bfa0-8b4942d8b339</guid>
+	</files>
+		<files>
+		<path>media/clothing/clothingItems/Bag_Ammopack1Back.xml</path>
+		<guid>fa0e0756-7adc-4cb5-8118-5f88010df1de</guid>
+	</files>
+		<files>
+		<path>media/clothing/clothingItems/BandolierBulletsBelt.xml</path>
+		<guid>3ea755c9-ddb4-47e4-aada-60cfeadc389d</guid>
+	</files>	
+		<files>
+		<path>media/clothing/clothingItems/BandolierShellsBelt.xml</path>
+		<guid>ebb4ce7f-765b-47e8-b090-f935d314434e</guid>
+	</files>
+</fileGuidTable>
